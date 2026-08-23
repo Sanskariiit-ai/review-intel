@@ -1,0 +1,40 @@
+# --- Web framework ---
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+pydantic-settings==2.5.2
+
+# --- Database ---
+sqlalchemy==2.0.35
+asyncpg==0.29.0
+alembic==1.13.2
+
+# --- Vector DB ---
+qdrant-client==1.19.0
+
+# --- Caching / background tasks ---
+redis==5.0.8
+
+# --- Auth ---
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.9
+
+# --- NLP / ML pipeline ---
+sentence-transformers==3.1.1
+scikit-learn==1.5.2
+numpy==1.26.4
+pandas==2.2.2
+bertopic==0.16.4
+hdbscan==0.8.38.post1
+umap-learn==0.5.6
+langdetect==1.0.9
+vaderSentiment==3.3.2
+
+# --- LLM orchestration ---
+anthropic==0.34.2
+
+# --- Testing ---
+pytest==8.3.3
+pytest-asyncio==0.24.0
+httpx==0.27.2
